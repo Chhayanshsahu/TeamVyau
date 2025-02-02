@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameController2 : MonoBehaviour
+public class GameController3 : MonoBehaviour
 {
     [SerializeField]
     private GameObject _object;
@@ -11,38 +11,31 @@ public class GameController2 : MonoBehaviour
     [SerializeField]
     private GameObject winText;
     public static bool youWin;
-    
-        void Start()
+
+    private const float RotationThreshold = 0.01f; // Threshold for rotation comparison
+
+    void Start()
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         winText.SetActive(false);
         youWin = false;
-
-       
     }
 
-    // Update is called once per frame
-    public void Update()
+    void Update()
     {
-        // Check if all Images' rotations are at 0
-        if (Images[0].rotation.z == 0 &&
-            Images[1].rotation.z == 0 &&
-            Images[2].rotation.z == 0 &&
-            Images[3].rotation.z == 0 &&
-            Images[4].rotation.z == 0 &&
-            Images[5].rotation.z == 0 &&
-            Images[6].rotation.z == 0 &&
-            Images[7].rotation.z == 0 &&
-            Images[8].rotation.z == 0 &&
-            Images[9].rotation.z == 0 &&
-            Images[10].rotation.z == 0 &&
-            Images[11].rotation.z == 0 &&
-            Images[12].rotation.z == 0 &&
-            Images[13].rotation.z == 0 &&
-            Images[14].rotation.z == 0 &&
-            Images[15].rotation.z == 0 &&
-            Images[16].rotation.z == 0)
+        // Check if all Images' rotations are approximately 0 on the Z-axis
+        bool allRotationsZero = true;
+        foreach (var image in Images)
+        {
+            if (Mathf.Abs(image.rotation.z) > RotationThreshold)
+            {
+                allRotationsZero = false;
+                break;
+            }
+        }
+
+        if (allRotationsZero && !youWin)
         {
             youWin = true;
             Cursor.lockState = CursorLockMode.Locked;
@@ -52,24 +45,13 @@ public class GameController2 : MonoBehaviour
 
     private IEnumerator WinSequence()
     {
-        yield return new WaitForSeconds(2f);  // Wait for 2 seconds
-        winText.SetActive(true);  // Activate win text
-        Destroy(_object);  // Destroy the _object after delay
+        yield return new WaitForSeconds(2f); // Wait for 2 seconds
+        winText.SetActive(true); // Activate win text
+        Destroy(_object); // Destroy the _object after delay
 
-       
+        yield return new WaitForSeconds(4f); // Wait for 4 seconds before changing the scene
 
-        yield return new WaitForSeconds(4f);  // Wait for 4 seconds before changing the scene
-
-        // Unload the current scene
-        SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().name);
-
-        // Load the "Envi" scene
+        // Load the "Envir1" scene
         SceneManager.LoadScene("Envir1", LoadSceneMode.Single);
-
-        // Wait until the new scene is fully loaded
-        yield return new WaitUntil(() => SceneManager.GetActiveScene().name == "Envir");
-
-        // After the scene is loaded, find the player object and restore its position
-       
     }
 }
