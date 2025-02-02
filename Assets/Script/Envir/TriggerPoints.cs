@@ -38,7 +38,7 @@ public class TriggerPoints : MonoBehaviour
         // Show interaction prompt
         if (interactionPrompt != null)
         {
-            interactionPrompt.text = "Press E to interact";
+            interactionPrompt.text = "This photo… it’s incomplete. Just like my memories. Can I fix it? Press E to Fix";
             interactionPrompt.gameObject.SetActive(true);
         }
     }

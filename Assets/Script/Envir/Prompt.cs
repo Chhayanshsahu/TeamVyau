@@ -5,7 +5,7 @@ using System.Collections; // Needed for IEnumerator
 public class PlayerDistanceTrigger : MonoBehaviour
 {
     public float distanceToTrigger1 = 5f; // Distance for the first prompt
-    public float distanceToTrigger2 = 15f; // Distance for the second prompt
+    public float distanceToTrigger2 = 10f; // Distance for the second prompt
     private Vector3 startingPosition;
     private float distanceTraveled = 0f;
 
