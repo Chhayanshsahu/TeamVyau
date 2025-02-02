@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ef5c1ed7c5dace84e8816daf574a8857
+guid: a09c0558e2ae55042ae3c00fbf6c1211
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,17 +93,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: puzzle happy1_0
+      name: Puzzle cheat_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 232
-        width: 100
-        height: 100
+        x: 0
+        y: 285
+        width: 134
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cd8c8daaf98f4940947a8aec7155a34
-      internalID: 1916048782
+      spriteID: 3e1292cd75a4cad4283f59564b34d4bc
+      internalID: -1274792482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: puzzle happy1_1
+      name: Puzzle cheat_1
       rect:
         serializedVersion: 2
-        x: 120
-        y: 232
-        width: 100
-        height: 100
+        x: 134
+        y: 285
+        width: 134
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a1354c51ea015d4e83263109dc57c46
-      internalID: -278520843
+      spriteID: 4ffeb14871760e24f88694185cc49323
+      internalID: -773183939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: puzzle happy1_2
+      name: Puzzle cheat_2
       rect:
         serializedVersion: 2
-        x: 220
-        y: 232
-        width: 100
-        height: 100
+        x: 268
+        y: 285
+        width: 134
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cb0c62f273b9384398d48852d9a62f8
-      internalID: -1568381939
+      spriteID: 5212cf8651e6fe34db061f899904f202
+      internalID: 1775503772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: puzzle happy1_3
+      name: Puzzle cheat_3
       rect:
         serializedVersion: 2
-        x: 320
-        y: 232
-        width: 100
-        height: 100
+        x: 402
+        y: 285
+        width: 134
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0869d7944f0ef3c43a94855030e7a61c
-      internalID: -1379419624
+      spriteID: f059b735ea7ecac4fbdd7a38405b8356
+      internalID: -1028783174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: puzzle happy1_4
+      name: Puzzle cheat_4
       rect:
         serializedVersion: 2
-        x: 420
-        y: 232
-        width: 100
-        height: 100
+        x: 0
+        y: 191
+        width: 134
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8a8ac637e7cdce489ee83ccc47fe7c3
-      internalID: -775916144
+      spriteID: 927c71c5b13bd4148a15bc630496e94c
+      internalID: 1995717702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: puzzle happy1_5
+      name: Puzzle cheat_5
       rect:
         serializedVersion: 2
-        x: 20
-        y: 132
-        width: 100
-        height: 100
+        x: 134
+        y: 191
+        width: 134
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ca8b72a75b50ce45adbcfab06d29dd8
-      internalID: 2077047263
+      spriteID: e0d50398b75d6b245b1b2bc31f670f91
+      internalID: 1901011293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: puzzle happy1_6
+      name: Puzzle cheat_6
       rect:
         serializedVersion: 2
-        x: 120
-        y: 132
-        width: 100
-        height: 100
+        x: 268
+        y: 191
+        width: 134
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31b25d54dc04c5f4ca1bba2dac51fdb6
-      internalID: -653978484
+      spriteID: baaee3d9bce60bf4b8eacad5344e74f5
+      internalID: 509945936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: puzzle happy1_7
+      name: Puzzle cheat_7
       rect:
         serializedVersion: 2
-        x: 220
-        y: 132
-        width: 100
-        height: 100
+        x: 402
+        y: 191
+        width: 134
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96fcb24353cd46648b0831c94b900147
-      internalID: -1226717364
+      spriteID: dd2a5a5d1d12e274c9c724571f5598c0
+      internalID: 1940395829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: puzzle happy1_8
+      name: Puzzle cheat_8
       rect:
         serializedVersion: 2
-        x: 320
-        y: 132
-        width: 100
-        height: 100
+        x: 0
+        y: 97
+        width: 134
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07e5d3cf9ea58444480bc396f348f9be
-      internalID: 1020309298
+      spriteID: a992c37e58fc9cf4b94aeeba278e7142
+      internalID: -785427518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: puzzle happy1_9
+      name: Puzzle cheat_9
       rect:
         serializedVersion: 2
-        x: 420
-        y: 132
-        width: 100
-        height: 100
+        x: 134
+        y: 97
+        width: 134
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,20 +313,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e37255e3eabb9ef409a1deaf56c65fad
-      internalID: 252456573
+      spriteID: 520d1e27938b8b748aaa659c805ec91d
+      internalID: 475365528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: puzzle happy1_10
+      name: Puzzle cheat_10
       rect:
         serializedVersion: 2
-        x: 20
-        y: 32
-        width: 100
-        height: 100
+        x: 268
+        y: 97
+        width: 134
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,20 +334,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25200dda03a717a4d8321ccb4624525a
-      internalID: 1557641143
+      spriteID: d1e86d895b4fdf546ad185406c95e246
+      internalID: 49031924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: puzzle happy1_11
+      name: Puzzle cheat_11
       rect:
         serializedVersion: 2
-        x: 120
-        y: 32
-        width: 100
-        height: 100
+        x: 402
+        y: 97
+        width: 134
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,20 +355,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13f6b7e884ac474428c2d49b053042e2
-      internalID: 278039623
+      spriteID: bc0fcf716df1a1343af49b70fd3e197b
+      internalID: 734623217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: puzzle happy1_12
+      name: Puzzle cheat_12
       rect:
         serializedVersion: 2
-        x: 220
-        y: 32
-        width: 100
-        height: 100
+        x: 0
+        y: 3
+        width: 134
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,20 +376,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c0880cbab015d9408fd4cb79ff8a5c4
-      internalID: 134832883
+      spriteID: 3e56a46afdbdcb448beddef1d7f28b98
+      internalID: 1646863933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: puzzle happy1_13
+      name: Puzzle cheat_13
       rect:
         serializedVersion: 2
-        x: 320
-        y: 32
-        width: 100
-        height: 100
+        x: 134
+        y: 3
+        width: 134
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,20 +397,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e91bd56d91e834d4da99e15a957d8a26
-      internalID: -1147137793
+      spriteID: 5543835fef5645c4b928d0ed8b110093
+      internalID: 1824279456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: puzzle happy1_14
+      name: Puzzle cheat_14
       rect:
         serializedVersion: 2
-        x: 420
-        y: 32
-        width: 100
-        height: 100
+        x: 268
+        y: 3
+        width: 134
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,8 +418,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66baf1e13b598674c89274184e4030aa
-      internalID: 1217057045
+      spriteID: 921c3867dc995944c94dfaa9e338de20
+      internalID: 1281083818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puzzle cheat_15
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 3
+        width: 134
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb71a2b12bc57c24396e1ee4679d41ea
+      internalID: -1954375331
       vertices: []
       indices: 
       edges: []
@@ -414,7 +448,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 1282d34e1f96f51498aa2f1bf92fd650
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -422,21 +456,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      puzzle happy1_0: 1916048782
-      puzzle happy1_1: -278520843
-      puzzle happy1_10: 1557641143
-      puzzle happy1_11: 278039623
-      puzzle happy1_12: 134832883
-      puzzle happy1_13: -1147137793
-      puzzle happy1_14: 1217057045
-      puzzle happy1_2: -1568381939
-      puzzle happy1_3: -1379419624
-      puzzle happy1_4: -775916144
-      puzzle happy1_5: 2077047263
-      puzzle happy1_6: -653978484
-      puzzle happy1_7: -1226717364
-      puzzle happy1_8: 1020309298
-      puzzle happy1_9: 252456573
+      Puzzle cheat_0: -1274792482
+      Puzzle cheat_1: -773183939
+      Puzzle cheat_10: 49031924
+      Puzzle cheat_11: 734623217
+      Puzzle cheat_12: 1646863933
+      Puzzle cheat_13: 1824279456
+      Puzzle cheat_14: 1281083818
+      Puzzle cheat_15: -1954375331
+      Puzzle cheat_2: 1775503772
+      Puzzle cheat_3: -1028783174
+      Puzzle cheat_4: 1995717702
+      Puzzle cheat_5: 1901011293
+      Puzzle cheat_6: 509945936
+      Puzzle cheat_7: 1940395829
+      Puzzle cheat_8: -785427518
+      Puzzle cheat_9: 475365528
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
